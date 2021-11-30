@@ -22,3 +22,5 @@
 
 .btns-wrap{display: flex;justify-content: space-between;max-width: 300px;margin: auto 0 auto auto;}
 .btns-wrap .btn{width: 50%;}
+
+/* .form-check-input:focus{box-shadow: none; border:none;} */

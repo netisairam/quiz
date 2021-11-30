@@ -64,9 +64,9 @@ export default {
                         <h3>Quiz</h3>
                         <p>Please select Topic to start quiz</p>
                         <div class="card-deck" v-if="Object.keys(topics).length > 0">
-                            <div class="card mt-2" style="cursor:pointer" v-for="(val, index) in topics" :key="index" >
+                            <div class="card mt-2" style="cursor:pointer" v-for="(val, index) in topics" :key="index" v-on:click="selecttopic(index, val)" >
                                 <div class="card-body text-center">
-                                    <p class="card-text" v-on:click="selecttopic(index, val)">{{val}}</p>
+                                    <p class="card-text">{{val}}</p>
                                 </div>
                             </div>                        
                         </div>
