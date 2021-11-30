@@ -19,7 +19,7 @@ export default {
             <div>                    
                 <Menu></Menu>
                 <div class="container">
-                    <h1>Home Component</h1>
+                    <h1>Welcome</h1>
                 </div>                    
             </div>
             `
